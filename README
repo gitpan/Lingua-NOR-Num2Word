@@ -1,11 +1,11 @@
 
 
 This archive contains the distribution Lingua-NOR-Num2Word,
-version 0.044:
+version 0.0577:
 
-  This module is based on and inspired by Roman Vasicek module Lingua::CS::Num2Word. Lingua::NOR::Num2Word is a module for converting whole numbers into their norwegian textual representation. Converts numbers from 0 up to 999 999 999.
+  Number 2 word conversion in NOR.
 
-This software is copyright (c) 2012 by Kjetil Fikkan.
+This software is copyright (c) 2013 by Kjetil Fikkan.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

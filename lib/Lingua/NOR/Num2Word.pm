@@ -1,7 +1,7 @@
 # For Emacs: -*- mode:cperl; mode:folding -*-
 
 package Lingua::NOR::Num2Word;
-# ABSTRACT: This module is based on and inspired by Roman Vasicek module Lingua::CS::Num2Word. Lingua::NOR::Num2Word is a module for converting whole numbers into their norwegian textual representation. Converts numbers from 0 up to 999 999 999.
+# ABSTRACT: Number 2 word conversion in NOR.
 
 # {{{ use block
 
@@ -11,8 +11,7 @@ use warnings;
 # }}}
 # {{{ variables declaration
 
-my($ver)      = ('$Rev: 440 $' =~ m{(\d+)}xms);
-our $VERSION = $ver / 10_000;
+our $VERSION = 0.0577;
 
 
 
@@ -175,7 +174,11 @@ Lingua::NOR::Num2Word - convert whole number to norwegian text. Output text is i
 
 =head1 DESCRIPTION
 
-This module is based on and inspired by Roman Vasicek module Lingua::CS::Num2Word. Lingua::NOR::Num2Word is a module for converting whole numbers into their norwegian textual representation. Converts numbers from 0 up to 999 999 999.
+Number 2 word conversion in NOR.
+
+This module is based on and inspired by Roman Vasicek module Lingua::CS::Num2Word.
+Lingua::NOR::Num2Word is a module for converting whole numbers into their norwegian
+textual representation. Converts numbers from 0 up to 999 999 999.
 
 =head1 METHODS
 

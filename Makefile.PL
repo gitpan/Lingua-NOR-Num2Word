@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "This module is based on and inspired by Roman Vasicek module Lingua::CS::Num2Word. Lingua::NOR::Num2Word is a module for converting whole numbers into their norwegian textual representation. Converts numbers from 0 up to 999 999 999.",
+  "ABSTRACT" => "Number 2 word conversion in NOR.",
   "AUTHOR" => "Kjetil Fikkan <kjetil\@fikkan.org>",
   "BUILD_REQUIRES" => {
     "Test::More" => 0
@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.044",
+  "VERSION" => "0.0577",
   "test" => {
     "TESTS" => "t/*.t"
   }
