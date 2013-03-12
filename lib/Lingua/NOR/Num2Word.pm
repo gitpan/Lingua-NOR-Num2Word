@@ -5,13 +5,15 @@ package Lingua::NOR::Num2Word;
 
 # {{{ use block
 
+use 5.10.1;
+
 use strict;
 use warnings;
 
 # }}}
 # {{{ variables declaration
 
-our $VERSION = 0.0577;
+our $VERSION = 0.0682;
 
 
 
